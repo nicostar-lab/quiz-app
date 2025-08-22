@@ -3,7 +3,7 @@
 Un petit jeu interactif de quiz en **JavaScript, HTML et CSS**, permettant de tester tes connaissances en culture générale.  
 Simple, amusant et accessible directement depuis le navigateur !
 
-![Aperçu](./preview.png)
+![Aperçu](./image.png)
 
 ---
 
