@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz-App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="profile.jpg" type="image/x-icon">
+  </head>
+  <body>
+    <section class="landing">
+      <div class="box" id="intro">
+        <h1>QUIZ GAME!!</h1>
+        <p>Test tes connaissances en culture générale</p>
+        <button id="btn1">START</button>
+      </div>
+      <div class="box" id="body">
+        <div
+          style="
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+          "
+        >
+          <p>Question <span id="num_quest">1</span> sur 5</p>
+          <p>Score : <span id="score">0</span></p>
+        </div>
+        <div class="question">
+          <h2 id="interrogation">
+            L'affirmation "L'Egypte est un don du Nil" est de:
+          </h2>
+        </div>
+        <ul id="reponses">
+          <li class="box1"></li>
+          <li class="box1"></li>
+          <li class="box1"></li>
+        </ul>
+        <div
+          class="next"
+          style="
+            width: 100%;
+            justify-content: end;
+            display: flex;
+            margin-top: 10px;
+          "
+        >
+          <button id="btn2">SUIVANT</button>
+        </div>
+      </div>
+      <div class="box" id="end">
+        <div class="container">
+          <h1>RESULTAT</h1>
+          <div
+            class="box1"
+            style="display: flex; flex-direction: column; align-items: center"
+          >
+            <h3 id="comment">Félicitation</h3>
+            <p>Vous avez eu <span id="endScore"></span> sur 5</p>
+          </div>
+          <button id="btn3" type="reset">RESTART QUIZ</button>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
